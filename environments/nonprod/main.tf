@@ -1,8 +1,5 @@
-/*
-# Example
-
-module "my_nonprod_resource" {
-    source = "../../modules/my-module"
-    config = var.config
+resource "random_string" "random" {
+  length           = var.length
+  special          = true
+  override_special = "/@£$"
 }
-*/

@@ -1,2 +1,2 @@
-# Example
-# config = "my-nonprod-config"
+length = 12
+
